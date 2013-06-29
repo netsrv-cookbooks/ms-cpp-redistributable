@@ -18,7 +18,7 @@
 #
 # Visual C++ Redistributable for Visual Studio 2012 Update 3
 url = "http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU3/vcredist_x64.exe"
-app_str = "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.60610"
+app_str = "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.60610"
 
 exe_file = File.join(Chef::Config[:file_cache_path],"vcredist_2012_x64.exe")
 remote_file exe_file do
