@@ -1,11 +1,12 @@
 {
   "name": "ms-cpp-redistributable",
   "description": "Installs/Configures ms-cpp-redistributable",
-  "long_description": "ms-cpp-redistributable\n======================\nInstalls Microsoft Visual C++ redistributable packages from the Microsoft website.\n\nUsage\n-----\nIn your recipe add something like:\n    include_recipe \"ms-cpp-redistributable::2005_x86\"\n\nCurrent versions supported:\n* 2005 x86\n\nLicense and Authors\n-------------------\n    Copyright 2013, NetSrv Consulting Ltd.\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\nAuthors: Colin Woodcock (<cwoodcock@netsrv-consulting.com>)\n",
+  "long_description": "ms-cpp-redistributable\n======================\nInstalls Microsoft Visual C++ redistributable packages from the Microsoft website.\n\nUsage\n-----\nIn your recipe add something like:\n    include_recipe \"ms-cpp-redistributable::2005_x86\"\n\nCurrent versions supported:\n* 2005 x86\n* 2008_x86\n* 2012_x86 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)\n* 2012_x64 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)\nLicense and Authors\n-------------------\n    Copyright 2013, NetSrv Consulting Ltd.\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\nAuthors: Colin Woodcock (<cwoodcock@netsrv-consulting.com>)\n",
   "maintainer": "NetSrv Consulting Ltd.",
   "maintainer_email": "enquiries@netsrv-consulting.com",
   "license": "Apache License, Version 2.0",
   "platforms": {
+    "windows": ">= 0.0.0"
   },
   "dependencies": {
     "windows": ">= 0.0.0"
