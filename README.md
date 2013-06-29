@@ -11,6 +11,7 @@ Current versions supported:
 * 2005 x86
 * 2008_x86
 * 2012_x86 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)
+* 2012_x64 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)
 License and Authors
 -------------------
     Copyright 2013, NetSrv Consulting Ltd.
