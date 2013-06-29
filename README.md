@@ -15,6 +15,7 @@ Recipes
 -------
 * 2005 x86 (Microsoft Visual C++ 2005 Service Pack 1 Redistributable Package MFC Security Update, 8.0.61001)
 * 2008_x86 (Microsoft Visual C++ 2008 SP1 Redistributable Package (x86), 9.0.30729.17)
+* 2008_x64 (Microsoft Visual C++ 2008 SP1 Redistributable Package (x64), 9.0.30729.17)
 * 2012_x86 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)
 * 2012_x64 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)
 
