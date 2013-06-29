@@ -22,8 +22,13 @@
 url = "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE"
 app_str = "Microsoft Visual C++ 2005 Redistributable"
 
-windows_package app_str do
+exe_file = File.join(Chef::Config[:file_cache_path],"vcredist_2005_x86.exe")
+remote_file exe_file do
   source url
+end
+
+windows_package app_str do
+  source exe_file
   action :install
   installer_type :custom
   options "/q"
