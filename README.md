@@ -1,19 +1,25 @@
 ms-cpp-redistributable
 ======================
-Installs Microsoft Visual C++ redistributable packages from the Microsoft website.
+Installs runtime components of Microsoft Visual C++ Libraries required to run applications developed with Microsoft
+Visual C++.
+
+Packages are downloaded directly from the Microsoft download site.
 
 Usage
 -----
-In your recipe add something like:
+In your recipe add something similar to:
+
     include_recipe "ms-cpp-redistributable::2005_x86"
 
-Current versions supported:
-* 2005 x86
-* 2008_x86
+Recipes
+-------
+* 2005 x86 (Microsoft Visual C++ 2005 Service Pack 1 Redistributable Package MFC Security Update, 8.0.61001)
+* 2008_x86 (Microsoft Visual C++ 2008 SP1 Redistributable Package (x86), 9.0.30729.17)
 * 2012_x86 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)
 * 2012_x64 (Visual C++ Redistributable for Visual Studio 2012 Update 3, 11.0.60610)
-License and Authors
--------------------
+
+License
+-------
     Copyright 2013, NetSrv Consulting Ltd.
 
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,4 +34,6 @@ License and Authors
     See the License for the specific language governing permissions and
     limitations under the License.
 
-Authors: Colin Woodcock (<cwoodcock@netsrv-consulting.com>)
+Authors
+-------
+* Colin Woodcock (<cwoodcock@netsrv-consulting.com>)
