@@ -17,7 +17,7 @@
 #   limitations under the License.
 #
 url = "http://download.microsoft.com/download/d/d/9/dd9a82d0-52ef-40db-8dab-795376989c03/vcredist_x86.exe"
-app_str = "Microsoft Visual C++ 2008 Redistributable"
+app_str = "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17"
 
 exe_file = File.join(Chef::Config[:file_cache_path],"vcredist_2008_x86.exe")
 remote_file exe_file do
