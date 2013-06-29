@@ -9,6 +9,7 @@ In your recipe add something like:
 
 Current versions supported:
 * 2005 x86
+* 2008_x86
 
 License and Authors
 -------------------
