@@ -29,4 +29,5 @@ windows_package app_str do
   action :install
   installer_type :custom
   options "/q"
+  checksum "41f45a46ee56626ff2699d525bb56a3bb4718c5ca5f4fb5b3b38add64584026b"
 end

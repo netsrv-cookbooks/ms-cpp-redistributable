@@ -30,4 +30,5 @@ windows_package app_str do
   action :install
   installer_type :custom
   options "/install /quiet /norestart"
+  checksum "db68929b556bf742ce2646687979176f09acdd5f1f1334a0d403c39228305316"
 end
