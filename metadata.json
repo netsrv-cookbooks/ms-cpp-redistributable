@@ -1,0 +1,29 @@
+{
+  "name": "ms-cpp-redistributable",
+  "description": "Installs/Configures ms-cpp-redistributable",
+  "long_description": "ms-cpp-redistributable Cookbook\n===============================\nInstalls Microsoft Visual C++ redistributable packages from the Microsoft website.\n\nUsage\n-----\nIn your recipe add something like:\n    include_recipe \"ms-cpp-redistributable::2005_x86\"\n\nCurrent versions supported:\n* 2005 x86\n\nLicense and Authors\n-------------------\nAuthors: Colin Woodcock <cwoodcock at netsrv-consulting.com>\n",
+  "maintainer": "NetSrv Consulting Ltd.",
+  "maintainer_email": "enquiries@netsrv-consulting.com",
+  "license": "Apache License, Version 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}
