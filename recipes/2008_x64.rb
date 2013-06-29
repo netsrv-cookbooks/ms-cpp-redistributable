@@ -19,7 +19,7 @@
 url = "http://download.microsoft.com/download/2/d/6/2d61c766-107b-409d-8fba-c39e61ca08e8/vcredist_x64.exe"
 app_str = "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17"
 
-exe_file = File.join(Chef::Config[:file_cache_path],"vcredist_2008_x86.exe")
+exe_file = File.join(Chef::Config[:file_cache_path],"vcredist_2008_x64.exe")
 remote_file exe_file do
   source url
 end
