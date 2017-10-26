@@ -25,7 +25,7 @@ remote_file exe_file do
   source url
 end
 
-windows_package app_str do
+package app_str do
   source exe_file
   action :install
   installer_type :custom
